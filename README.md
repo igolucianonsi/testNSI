@@ -104,7 +104,7 @@ Por fim, altere esse arquivo com as instruções de como poderemos testar o seu 
 
 Utilizo o servidor da Google Cloud para hospedagem da aplicação desenvolvida (Cloud Run), banco de dados também na mesma estrutura de nuvem (Cloud SQL) e pode ser acessada no seguinte link:
 
-		https://php-caecrgswkq-uc.a.run.app
+	https://php-caecrgswkq-uc.a.run.app
 
 ## Funcionalidades do APP
 **TELAS:**
