@@ -109,19 +109,19 @@ Utilizo o servidor da Google Cloud para hospedagem da aplicação desenvolvida (
 ## Funcionalidades do APP
 **TELAS:**
 
->***Home:** Interface inicial da aplicação composta por um cabeçalho contendo um ícone com link para a página principal e logomarca do SENAI. Possui também um menu onde o usuário irá navegar por todo APP, bem como uma mensagem de "bem-vindo" e um painel com resumo de pessoas matriculadas nos cursos.*
+>***Home:** Interface inicial da aplicação composta por um cabeçalho contendo um ícone com link para a página principal e logomarca do SENAI. Possui também um menu onde o usuário irá navegar por todo APP, bem como uma mensagem de "bem-vindo" e um painel com resumo de pessoas matriculadas nos cursos. (ver tela abaixo)*
 
 ![tela1](https://user-images.githubusercontent.com/89201878/133942042-fe3555d9-97f1-44c9-a4ef-631a67d76473.png)
 
->***Pessoa:** Tela onde serão fornecido os dados para ações cadastrais (Inserir/Atualizar/Excluir/Listar) de pessoas. O formulário contém campos (CPF e Data de Nascimento) com máscaras de formatação bem como rotina para validação quanto ao preenchimento dos itens. Foi feito também um bloqueio para exclusão quando a pessoa estiver vinculada a uma matricula.* 
+>***Pessoa:** Tela onde serão fornecido os dados para ações cadastrais (Inserir/Atualizar/Excluir/Listar) de pessoas. O formulário contém campos (CPF e Data de Nascimento) com máscaras de formatação bem como rotina para validação quanto ao preenchimento dos itens. Foi feito também um bloqueio para exclusão quando a pessoa estiver vinculada a uma matricula. (ver tela abaixo)* 
 
 ![tela2](https://user-images.githubusercontent.com/89201878/133942499-b1a147da-1113-4794-ba33-3b3db20941a5.png)
 
->***Curso:** Assim como as funcionalidades básicas da tela de Pessoa a tela Curso possui uma particularidade no item "vagas totais" onde não será permitido editá-lo com valor menor do que a quantidade de matrículas já efetuadas para o mesmo.* 
+>***Curso:** Assim como as funcionalidades básicas da tela de Pessoa a tela Curso possui uma particularidade no item "vagas totais" onde não será permitido editá-lo com valor menor do que a quantidade de matrículas já efetuadas para o mesmo. (ver tela abaixo)* 
 
 ![tela3](https://user-images.githubusercontent.com/89201878/133942523-9696a269-ad1a-4d76-8e83-22bf050833dc.png)
 
->***Matrícula:** Nessa área o usuário poderá selecionar a pessoa e o curso de interesse, informar a data da matrícula e assim efetivar a mesma após a verificação de alguns critérios como: a existência de vaga disponíveis no curso, idade mínima do aluno para cursar, se o curso ainda não começou e claro, se o aluno já não foi cadastrado no mesmo curso. Lembrando que essa tela Matrícula possui as mesmas operações básicas das demais quanto ao critério de validação e máscara no campo editável.* 
+>***Matrícula:** Nessa área o usuário poderá selecionar a pessoa e o curso de interesse, informar a data da matrícula e assim efetivar a mesma após a verificação de alguns critérios como: a existência de vaga disponíveis no curso, idade mínima do aluno para cursar, se o curso ainda não começou e claro, se o aluno já não foi cadastrado no mesmo curso. Lembrando que essa tela Matrícula possui as mesmas operações básicas das demais quanto ao critério de validação e máscara no campo editável. (ver tela abaixo)* 
 
 ![tela4](https://user-images.githubusercontent.com/89201878/133942543-3b6fa624-d44d-4583-9c7b-94d621fdb88a.png)
 
