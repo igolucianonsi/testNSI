@@ -112,6 +112,7 @@ Utilizo o servidor da Google Cloud para hospedagem da aplicação desenvolvida (
 >***Home:** Interface inicial da aplicação composta por um cabeçalho contendo um ícone com link para a página principal e logomarca do SENAI. Possui também um menu onde o usuário irá navegar por todo APP, bem como uma mensagem de "bem-vindo" e um painel com resumo de pessoas matriculadas nos cursos.*
 >
 Tela 1
+![tela1](https://user-images.githubusercontent.com/89201878/133942042-fe3555d9-97f1-44c9-a4ef-631a67d76473.png)
 
 >***Pessoa:** Tela onde serão fornecido os dados para ações cadastrais (Inserir/Atualizar/Excluir/Listar) de pessoas. O formulário contém campos (CPF e Data de Nascimento) com máscaras de formatação bem como rotina para validação quanto ao preenchimento dos itens. Foi feito também um bloqueio para exclusão quando a pessoa estiver vinculada a uma matricula.* 
 >
