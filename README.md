@@ -111,7 +111,7 @@ Utilizo o servidor da Google Cloud para hospedagem da aplicação desenvolvida (
 
 >***Home:** Interface inicial da aplicação composta por um cabeçalho contendo um ícone com link para a página principal e logomarca do SENAI. Possui também um menu onde o usuário irá navegar por todo APP, bem como uma mensagem de "bem-vindo" e um painel com resumo de pessoas matriculadas nos cursos.*
 >
-![alt text](https://raw.githubusercontent.com/CETEC-DIGI/01859-2021-512.748.682-20/dev/telas/tela1.png?token=AVIRZVVPTCFSIBEXRXMSUBTBI6JAS)
+![enter image description here](https://github.com/CETEC-DIGI/01859-2021-512.748.682-20/issues/1#issue-1000411635)
 
 >***Pessoa:** Tela onde serão fornecido os dados para ações cadastrais (Inserir/Atualizar/Excluir/Listar) de pessoas. O formulário contém campos (CPF e Data de Nascimento) com máscaras de formatação bem como rotina para validação quanto ao preenchimento dos itens. Foi feito também um bloqueio para exclusão quando a pessoa estiver vinculada a uma matricula.* 
 >
