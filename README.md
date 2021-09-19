@@ -1,60 +1,125 @@
+
 # Processo seletivo - QA
 
-Bem vindo, candidato. 
+  
+
+Bem vindo, candidato.
+
+  
 
 Estamos felizes que você esteja participando do processo seletivo para a vaga de QA do Instituto SENAI de Tecnologia em Soluções digitais.
 
-A prova utilizará das seguintes tecnologias: 
+  
+
+A prova utilizará das seguintes tecnologias:
+
 - Linguagem de programação para web
+
 - Docker
+
 - Banco de dados relacional
+
 - GIT
 
-Fica à sua escolha quais frameworks e servidor serão utilizados, desde que seja uma aplicação web. 
+  
 
-O banco de dados relacional deverá ser postgreSQL. 
+Fica à sua escolha quais frameworks e servidor serão utilizados, desde que seja uma aplicação web.
+
+  
+
+O banco de dados relacional deverá ser postgreSQL.
+
+  
 
 Na etapa da entrevista deverá ser apresentado a aplicação em funcionamento.
 
+  
+
 ## Instruções para a execução da prova
+
+  
 
 A prova deve ser uma aplicação web. Você pode escolher a tecnologia que achar conveniente (PHP, JAVA, etc...).
 
+  
+
 O Banco utilizado na prova deve ser PostgreSQL.
+
+  
 
 Esse repositório possui apenas esse Readme com as instruções da prova. No entanto, **todo desenvolvimento deve ser commitado nesse repositório** até a data citada no email, enviado por nossa equipe.
 
+  
+
 Commite nesse repositório o script utilizado na criação do banco de dados (se aplicável).
+
+  
 
 Por fim, altere esse arquivo com as instruções de como poderemos testar o seu código (quais libs usar, qual servidor, etc) abaixo.
 
+  
+
 ## Será avaliado
+
 - Qualidade do código quanto a:
-  - Facilidade no entedimento
-  - Complexidade ciclomática
-  - Divisão de resposabilidade das classes
-  - Reutilização de código
+
+- Facilidade no entedimento
+
+- Complexidade ciclomática
+
+- Divisão de resposabilidade das classes
+
+- Reutilização de código
+
 - Qualidade quanto a interface:
-  - Fácil usabilidade
-  - Acessibilidade
-  - Feedback ao usuário
+
+- Fácil usabilidade
+
+- Acessibilidade
+
+- Feedback ao usuário
+
 - Qualidade quanto aos requisitos:
-  - Desenvolvimento e funcionamento dos requisitos propostos
+
+- Desenvolvimento e funcionamento dos requisitos propostos
+
+  
 
 ## Informações extras
 
+  
+
 - Descreva ao final deste documento (Readme.md) o detalhamento de funcionalidades implementadas, sejam elas já descritas na modelagem e / ou extras.
+
 - Detalhar também as funcionalidades que não conseguiu implementar e o motivo.
+
 - Caso tenha adicionado novas libs ou frameworks, descreva quais foram e porque dessa agregação.
 
+  
+
 (Escreva aqui as instruções para que possamos corrigir sua prova, bem como qualquer outra observação sobre a prova que achar pertinente compartilhar)
-
->
-> Prova
->
-
+  
+> Prova:
 
 ## Instrução para testes
 Estou utilizando o servidor da Google Cloud para hospedagem da aplicação desenvolvida e pode ser acessada no seguinte link:
 
-    https://php-caecrgswkq-uc.a.run.app
+		https://php-caecrgswkq-uc.a.run.app
+
+## Utilizei no desenvolvimento as seguintes ferramentas:
+
+**Framework**
+- **Codeigniter 4:** rápido, minimiza a quantidade de código necessária para execução tarefas rotineiras e com muitos recursos, mas sem deixar o desenvolvimento totalmente dependente apenas dos recursos dele.
+
+**Bibliotecas/Plugins/API**
+- **PHPUnit:** utilizado para realização de testes unitários em PHP.
+- **Font Awesome:** reúne vários elemento embutidos utilizados para fontes e ícones com base em CSS e LESS.
+- **Bootstrap:** usado para organização e gerência do layout.
+- **jQuery:** biblioteca leve, rápida e cheia de recursos para Javascript que facilita a manipulação de eventos, animações, elementos HTML e utilização de Ajax.
+
+- **Masked Input:** plugin que funciona em conjunto com a biblioteca jQuery permite a aplicação de uma máscara de entrada para campos de formulário do tipo input.
+- **Validator:** plugin utilizado para validar itens de um formulário e funciona também em conjunto com a biblioteca jQuery.
+- **SweetAlert:** API utilizada para estilizar e adicionar funcionalidades às caixas de diálogos em aplicações web.
+
+**Banco de Dados**
+- PostgreSQL;
