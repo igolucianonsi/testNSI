@@ -113,7 +113,7 @@ Utilizo o servidor da Google Cloud para hospedagem da aplicação desenvolvida (
 
 ![tela1](https://user-images.githubusercontent.com/89201878/133942042-fe3555d9-97f1-44c9-a4ef-631a67d76473.png)
 
->***Pessoa:** Tela onde serão fornecido os dados para ações cadastrais (Inserir/Atualizar/Excluir/Listar) de pessoas. O formulário contém campos (CPF e Data de Nascimento) com máscaras de formatação bem como rotina para validação quanto ao preenchimento dos itens. Foi feito também um bloqueio para exclusão quando a pessoa estiver vinculada a uma matricula. (ver tela abaixo)* 
+>***Pessoa:** Tela onde serão fornecido os dados para ações cadastrais (Inserir/Atualizar/Excluir/Listar) de pessoas. O formulário contém campos (CPF e Data de Nascimento) com máscaras de formatação bem como rotina para validação quanto ao preenchimento dos itens. Foi feito também um bloqueio para exclusão quando a pessoa já estiver vinculada a uma matrícula e abaixo a lista das Pessoas cadastradas. (ver tela abaixo)* 
 
 ![tela2](https://user-images.githubusercontent.com/89201878/133942499-b1a147da-1113-4794-ba33-3b3db20941a5.png)
 
@@ -121,14 +121,14 @@ Utilizo o servidor da Google Cloud para hospedagem da aplicação desenvolvida (
 
 ![tela3](https://user-images.githubusercontent.com/89201878/133942523-9696a269-ad1a-4d76-8e83-22bf050833dc.png)
 
->***Matrícula:** Nessa área o usuário poderá selecionar a pessoa e o curso de interesse, informar a data da matrícula e assim efetivar a mesma após a verificação de alguns critérios como: a existência de vaga disponíveis no curso, idade mínima do aluno para cursar, se o curso ainda não começou e claro, se o aluno já não foi cadastrado no mesmo curso. Lembrando que essa tela Matrícula possui as mesmas operações básicas das demais quanto ao critério de validação e máscara no campo editável. (ver tela abaixo)* 
+>***Matrícula:** Nessa área o usuário poderá selecionar a pessoa e o curso de interesse, informar a data da matrícula e assim efetivar a mesma após a verificação de alguns critérios como: a existência de vaga disponíveis no curso, idade mínima do aluno para cursar, se o curso ainda não começou e claro, se o aluno já não foi cadastrado no mesmo curso. Lembrando que essa tela Matrícula possui as mesmas operações básicas das demais quanto ao critério de validação, máscara no campo editável e lista dos itens cadastrados. (ver tela abaixo)* 
 
 ![tela4](https://user-images.githubusercontent.com/89201878/133942543-3b6fa624-d44d-4583-9c7b-94d621fdb88a.png)
 
 ## Utilizei no desenvolvimento as seguintes ferramentas:
 
 **Framework/Bibliotecas/Plugins/API**
-- **Codeigniter 4:** seguro e rápido, minimiza a quantidade código necessária para execução tarefas rotineiras e com muitos recursos, mas sem deixar o desenvolvimento totalmente dependente apenas dos recursos dele.
+- **Codeigniter 4:** framework seguro e rápido, minimiza a quantidade código necessária para execução tarefas rotineiras e com muitos recursos, mas sem deixar o desenvolvimento totalmente dependente apenas dos recursos dele.
 - **PHPUnit:** utilizado para realização de testes unitários em PHP.
 - **Font Awesome:** reúne vários elemento embutidos utilizados para fontes e ícones com base em CSS e LESS.
 - **Bootstrap:** usado para organização e gerência do layout.
@@ -136,12 +136,12 @@ Utilizo o servidor da Google Cloud para hospedagem da aplicação desenvolvida (
 
 - **Masked Input:** plugin que funciona em conjunto com a biblioteca jQuery permite a aplicação de uma máscara de entrada para campos de formulário do tipo input.
 - **Validator:** plugin utilizado para validar itens de um formulário e funciona também em conjunto com a biblioteca jQuery.
-- **SweetAlert:** API utilizada para estilizar e adicionar funcionalidades às caixas de diálogos em aplicações web.
+- **SweetAlert:** API utilizada para estilizar e adicionar funcionalidades às caixas de diálogos da aplicação.
 
 **Banco de Dados**
 - PostgreSQL;
 
-Para o deploy utilizei a ferramenta Docker para criar as imagens do projeto e assim enviá-las para a nuvem.
+No deploy utilizei a ferramenta Docker para criar as imagens dos containers do projeto e assim enviá-las para a nuvem.
 
 ## Considerações finais
 Desde já agradeço a atenção de vocês, obrigado e aguardo o resultado da avaliação ansioso.
